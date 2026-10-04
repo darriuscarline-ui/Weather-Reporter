@@ -35,3 +35,10 @@ How to get a OpenWeatherMap API
 5. Open reporter.py in VS Code
 6. Find the following line: API_KEY = "PUTYOURAPIKEYHERE"
 7. Replace "PUTYOURAPIKEYHERE" with your own OpenWeatherMap API key. (It might take a little while until your key works so don't panic if it doesn't work immediately after creating)
+
+Installation
+Python 3 and the requests library are required
+Install the requests library from the termina: pip install request
+
+How to Run
+1. Open 
