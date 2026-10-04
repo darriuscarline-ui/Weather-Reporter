@@ -41,4 +41,31 @@ Python 3 and the requests library are required
 Install the requests library from the termina: pip install request
 
 How to Run
-1. Open 
+1. Put both reporter.py and city_data.csv into Weather Reporter folder.
+2. Open Weather Reporter folder in VS Code.
+3. Make sure your OpenWeatherMap API keyhas been added to reporter.py.
+4. Open the terminal.
+5. Run the program: reporter.py
+6. Enter a city name when prompted.
+The program will display the current weather information and save the results to city_data.csv
+
+Example Output
+Enter a city name: San Diego
+
+Weather Report
+--------------------
+City: San Diego
+Country: US
+Temperature: 30.89°C
+Humidity: 38%
+Description: clear sky
+
+Weather information saved to city_data.csv.
+
+Number of cities in the file: 3
+Cities and temperatures:
+Minneapolis: 14.25°C
+Chicago: 18.88°C
+San Diego: 30.89°C
+
+The temperature and weather will change because the program retrieves live data from the API.
