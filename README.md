@@ -69,3 +69,8 @@ Chicago: 18.88°C
 San Diego: 30.89°C
 
 The temperature and weather will change because the program retrieves live data from the API.
+
+Code Documentation
+The program includes docstrings for all user-defined functions. These docstrings explain the purpose of each function and make the code easier to understand. The program also uses comments and descriptive variable names where additional explanation is helpful.
+
+Video Demonstration: https://www.loom.com/share/8ff3b3d454da4eadbe14b8d18f7c6f13 
