@@ -22,4 +22,7 @@ Temperature (C)
 Humidity (%)
 Description
 
-
+Libraries Used
+This project uses requests which is used to send a GET request to the OpenWeatherMap API.
+json which is used to analyze the JSON data returned by the API.
+csv which is used to write weather information to and read information from the CSV file.
