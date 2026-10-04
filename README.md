@@ -26,3 +26,12 @@ Libraries Used
 This project uses requests which is used to send a GET request to the OpenWeatherMap API.
 json which is used to analyze the JSON data returned by the API.
 csv which is used to write weather information to and read information from the CSV file.
+
+How to get a OpenWeatherMap API
+1. Go to OpenWeatherMap
+2. Create a free account or sign into an exisiting account.
+3. Go to your account's API Keys section
+4. Create or copy and API key.
+5. Open reporter.py in VS Code
+6. Find the following line: API_KEY = "PUTYOURAPIKEYHERE"
+7. Replace "PUTYOURAPIKEYHERE" with your own OpenWeatherMap API key. (It might take a little while until your key works so don't panic if it doesn't work immediately after creating)
